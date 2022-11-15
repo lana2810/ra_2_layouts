@@ -1,0 +1,65 @@
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
+.material-icons {
+  font-size: 3rem;
+  cursor: pointer;
+  text-align: right;
+  display: block;
+}
+.table-list-view {
+  background-color: rgb(245, 240, 240);
+  border-collapse: collapse;
+}
+.table-card-view {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+.foto-item {
+  width: 100%;
+}
+
+td {
+  width: 20%;
+  text-align: center;
+}
+.item-name {
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  color: gray;
+  font-size: 16px;
+}
+.item-color {
+  text-align: center;
+  color: gray;
+}
+.item-price {
+  color: red;
+}
+.item-price::before {
+  content: "\0024";
+}
+.btn {
+  width: 70%;
+  border: 1px solid red;
+  border-radius: 20px;
+  color: red;
+  padding: 5px;
+  background-color: #fff;
+}
+td {
+  border-bottom: 3px solid #fff;
+}
+.card {
+  position: relative;
+  width: 30%;
+  height: 230px;
+  margin-bottom: 3%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
